@@ -4,8 +4,11 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 trigger:
-- main
-- BasicFrontend/*
+  branches:
+    include:
+    - main
+    - BasicFrontend/*
+    - BasicFrontend
 
 
 pool:
