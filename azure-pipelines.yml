@@ -6,7 +6,7 @@
 trigger:
 - main
 - BasicFrontend/*
-- BasicFrontend
+
 
 pool:
   vmImage: 'ubuntu-latest'
