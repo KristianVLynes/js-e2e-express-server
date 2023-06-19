@@ -9,6 +9,8 @@ trigger:
     - main
     - BasicFrontend/*
     - BasicFrontend
+    - Sprint1
+    - feat/authentication
 
 
 pool:
