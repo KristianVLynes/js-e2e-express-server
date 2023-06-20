@@ -7,10 +7,7 @@ trigger:
   branches:
     include:
     - main
-    - BasicFrontend/*
-    - BasicFrontend
     - Sprint1
-    - feat/authentication
 
 
 pool:
